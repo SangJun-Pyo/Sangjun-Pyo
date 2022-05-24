@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=SangJun-Pyo)](https://github.com/ryo-ma/github-profile-trophy)
+
+![Sangjun-Pyo's github stats](https://github-readme-stats.vercel.app/api?username=SangJun-Pyo&show_icons=true)
+[![Sangjun-Pyo's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=SangJun-PyoID&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/SangJun-Pyo)
