@@ -10,7 +10,7 @@ Roblox 기반 게임 개발 및 관련 웹 서비스를 개인 프로젝트로 �
 - 핵심 루프: 탐험 → 수집 → 업그레이드 → 반복 플레이
 - 목적: 유저 진행도, 이탈 지점, 반복 플레이 동기 구조 설계
 
-### 2-2. 웹사이트 개발 (robprofile)
+### 2-2. 웹사이트 개발 ([robprofile](https://robprofile.pages.dev/))
 - Roblox 게임/유저 정보를 시각화하고 제공하는 웹 서비스
 - Node.js 기반 백엔드 + 프론트엔드 구성
 - Roblox API Proxy 서버 구현
