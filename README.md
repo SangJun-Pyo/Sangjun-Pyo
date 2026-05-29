@@ -13,7 +13,7 @@
 | **TRUVE** | Web3 / Crypto Donation | XRPL 기반 가상자산 기부 및 증빙 인프라 | [GitHub](https://github.com/SangJun-Pyo/Truve_prototype) · [Demo](https://truve.pages.dev/) |
 | **KOSIS_V2** | Public Data / Automation | KOSIS API 기반 통계 데이터 수집·실행·결과 관리 콘솔 | [GitHub](https://github.com/SangJun-Pyo/KOSIS_V2) |
 | **FANFI** | Web3 / Fan Economy | 팬 참여, 토큰, NFT, 음악 후원을 연결한 Web3 팬 플랫폼 실험 | [Demo](https://fanfi-v1.pages.dev/) |
-| **Roblox Game & Web** | Previous Experiment | Roblox 게임 구조와 Roblox API 기반 웹 서비스 실험 | Archived Experiment |
+| **Roblox Game & Web** | Previous Experiment | Roblox 게임 구조와 Roblox API 기반 웹 서비스 실험 | [Web](https://Robprofile.com/) |
 
 ---
 
