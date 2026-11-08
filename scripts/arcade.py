@@ -225,7 +225,7 @@ def build(cal, login):
         on = f'calcMode="discrete" values="0;1" keyTimes="0;{f(tm / T)}" dur="{f(T)}s" repeatCount="indefinite"'
         off = f'calcMode="discrete" values="1;0" keyTimes="0;{f(tm / T)}" dur="{f(T)}s" repeatCount="indefinite"'
         lit.append(f'<rect x="{f(x)}" y="{f(y)}" width="{CELL}" height="{CELL}" rx="2.5" fill="{GREENS[lv-1]}" opacity="0">'
-                   f'<title>{date}: {n} contributions</title><animate attributeName="opacity" {on}/></rect>')
+                   f'<title>{date}: {n} contribution{"" if n == 1 else "s"}</title><animate attributeName="opacity" {on}/></rect>')
         flashes.append(f'<rect x="{f(x-1)}" y="{f(y-1)}" width="{CELL+2}" height="{CELL+2}" rx="3" fill="#fff" opacity="0">'
                        f'<animate attributeName="opacity" values="0;0;.9;0;0" keyTimes="{kt([0, tm, tm + .03, tm + .4, T], T)}" '
                        f'dur="{f(T)}s" repeatCount="indefinite"/></rect>')
