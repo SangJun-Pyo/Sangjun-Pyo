@@ -25,6 +25,20 @@ NHTSA 신고 **93만 건** 적재 · **7,502건** LLM 분류 · 자동 검사 25
 </td>
 <td width="50%" valign="top">
 
+### 🍷 비싼 와인은 진짜 맛있을까?
+와인 리뷰 **약 11만 건**으로 가격·산지·품종이 평점을 얼마나 설명하는지 분석하고, 예산 안에서 모델로 고르는 게 "제일 비싼 것 고르기"보다 나은지 검증한 ML 팀 프로젝트.
+
+XGBoost R² **0.50** · 90점 이상 분류 AUC **0.857** · $30 예산 시뮬레이션에서 90점+ 적중 **41% → 65%**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square) ![SHAP](https://img.shields.io/badge/SHAP-FF0D57?style=flat-square)
+
+[Repo](https://github.com/SangJun-Pyo/SKKU_ML_Project) · [Colab](https://colab.research.google.com/github/SangJun-Pyo/SKKU_ML_Project/blob/main/notebooks/wine_stats_colab.ipynb)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🧭 MyAiScore
 공개 GitHub 저장소 URL 하나로 문서·검증·기록·자동화 신호를 읽어 **AI 개발 체계 점수**(100점)와 협업 유형을 보여주는 웹 서비스.
 
@@ -35,8 +49,6 @@ LLM 호출·코드 실행 없이 **결정론적 분석** · 근거 파일 경로
 [Demo](https://myaiscore-production.up.railway.app/) · [Repo](https://github.com/SangJun-Pyo/MyAiScore)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🃏 PocketMeta
@@ -47,6 +59,8 @@ LLM 호출·코드 실행 없이 **결정론적 분석** · 근거 파일 경로
 [Site](https://pocketmeta.app)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📈 Markov-Trade
@@ -57,8 +71,6 @@ LLM 호출·코드 실행 없이 **결정론적 분석** · 근거 파일 경로
 [Repo](https://github.com/SangJun-Pyo/Markov-Trade)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 💎 TRUVE
@@ -69,6 +81,8 @@ XRPL 기반 가상자산 기부 인프라. **Xaman 결제 → Evidence Package �
 [Demo](https://truve.pages.dev/) · [Repo](https://github.com/SangJun-Pyo/Truve_prototype)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 📊 KOSIS_V2
@@ -77,6 +91,14 @@ KOSIS API 공공통계 수집 배치를 **Streamlit 운영 콘솔**로 리뉴얼
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 [Repo](https://github.com/SangJun-Pyo/KOSIS_V2)
+
+</td>
+<td width="50%" valign="top">
+
+### 🗂 More
+- **VeriYeon** — DID/VC 기반 선택적 공개 신원 확인 매칭 프로토타입 · [Repo](https://github.com/SangJun-Pyo/VeriYeon)
+- **FANFI** — 음악 감상·팬 활동·토큰·NFT를 연결한 Web3 팬 이코노미 실험 · [Demo](https://fanfi-v1.pages.dev/)
+- **Robprofile** — Roblox API 기반 유저·게임 정보 시각화 웹 서비스 · [Web](https://Robprofile.com/)
 
 </td>
 </tr>
@@ -90,6 +112,14 @@ KOSIS API 공공통계 수집 배치를 **Streamlit 운영 콘솔**로 리뉴얼
 - 직전 12개월 평균 대비 **Poisson 상측 확률 p<0.001** 규칙으로 차종-월 경보
 - 경보 선택 → 원문 인용·제외 → 조사 요청서 저장을 한 흐름으로 연결, 판단은 사람이 내림
 - 조사 사례 백테스트와 미래 데이터 차단 검증, 한계와 미검증 항목을 README에 그대로 공개
+</details>
+
+<details>
+<summary><b>와인 프로젝트 더 보기</b></summary>
+
+- 가격만으로는 평점의 R² 0.38 (가격 2배 ≈ +2점), 산지·품종·빈티지 추가 시 Ridge 0.45 → XGBoost 0.50, 평균 오차 1.71점
+- 나라별 "가성비" 차이의 상당 부분이 **나라마다 다른 평론가** 때문임을 확인 (오스트리아 +1.8점 → 같은 평론가끼리 비교 시 +0.2점)
+- OLS·로지스틱 검정, GVIF, SHAP, 과적합 점검까지 포함하고 시드 고정으로 모든 숫자를 재현 가능하게 구성
 </details>
 
 <details>
@@ -109,13 +139,6 @@ KOSIS API 공공통계 수집 배치를 **Streamlit 운영 콘솔**로 리뉴얼
 - 재단 운영 흐름을 반영한 관리자 페이지와 외부 검증 페이지
 </details>
 
-<details>
-<summary><b>More</b></summary>
-
-- **VeriYeon** — DID/VC 기반 선택적 공개 신원 확인 매칭 프로토타입 (React · TypeScript) · [Repo](https://github.com/SangJun-Pyo/VeriYeon)
-- **FANFI** — 음악 감상·팬 활동·토큰·NFT를 연결한 Web3 팬 이코노미 실험 (MetaMask, ERC-20/721/1155) · [Demo](https://fanfi-v1.pages.dev/)
-- **Robprofile** — Roblox API 기반 유저·게임 정보 시각화 웹 서비스 · [Web](https://Robprofile.com/)
-</details>
 
 ---
 
