@@ -1,35 +1,38 @@
-name: Koi
+name: Koi Pond
 
 on:
   schedule:
     - cron: "20 0 * * *"
   workflow_dispatch:
   push:
-    paths: [.github/workflows/koi.yml]
+    branches: [main]
+    paths:
+      - .github/workflows/koi.yml
+      - scripts/koi_pond.py
 
 permissions:
   contents: write
 
-concurrency: koi
+concurrency: koi-pond
 
 jobs:
-  koi:
+  pond:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: yalongwastaken/git-koi@v1
-        with:
-          body: white
-          output-dir: koi
-      - name: Commit the koi if it changed
-        shell: bash
+      - uses: actions/checkout@v4
+      - name: Draw the koi pond
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/koi_pond.py --login "${{ github.repository_owner }}" --out pond/pond.svg
+      - name: Commit the pond if it changed
         run: |
-          git add koi/koi.gif
+          git add pond/pond.svg
           if git diff --cached --quiet; then
-            echo "The koi is unchanged; nothing to commit."
+            echo "The pond is unchanged; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "koi: draw the day's koi"
+          git commit --quiet --message "pond: redraw the koi pond"
+          git pull --rebase --quiet
           git push --quiet
