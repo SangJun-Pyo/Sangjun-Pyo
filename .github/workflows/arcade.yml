@@ -6,26 +6,33 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [.github/workflows/arcade.yml]
+    paths:
+      - .github/workflows/arcade.yml
+      - scripts/arcade.py
+
+permissions:
+  contents: write
+
+concurrency: arcade
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  arcade:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - name: generate contribution graph SVGs
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'pacman,breakout'
-          hide_month_labels: 'false'
-
-      - name: push SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+      - uses: actions/checkout@v4
+      - name: Draw the contribution arcade
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/arcade.py --login "${{ github.repository_owner }}" --out arcade/arcade.svg
+      - name: Commit the arcade if it changed
+        run: |
+          git add arcade/arcade.svg
+          if git diff --cached --quiet; then
+            echo "The arcade is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "arcade: redraw the contribution arcade"
+          git pull --rebase --quiet
+          git push --quiet
