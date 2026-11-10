@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
-<title>SangJun-Pyo koi pond: TypeScript, Python, JavaScript, R koi; 2,816 contributions in the last year</title>
+<title>SangJun-Pyo koi pond: TypeScript, Python, JavaScript, R koi; 2,875 contributions in the last year</title>
 <defs><radialGradient id="water" cx=".45" cy=".4" r=".8"><stop offset="0" stop-color="#14606d"/><stop offset=".55" stop-color="#0b3f4a"/><stop offset="1" stop-color="#05232b"/></radialGradient><radialGradient id="caustic"><stop offset="0" stop-color="#bff6ff" stop-opacity=".16"/><stop offset="1" stop-color="#bff6ff" stop-opacity="0"/></radialGradient><radialGradient id="pad" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#5fb36a"/><stop offset="1" stop-color="#23663a"/></radialGradient><filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3"/></filter><filter id="padshadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2"/></filter><clipPath id="pondclip"><rect x="14" y="14" width="600" height="292" rx="26"/></clipPath></defs>
 <rect x="1" y="1" width="898" height="318" rx="18" fill="#0a0f12" stroke="#1d2a30"/>
 <g clip-path="url(#pondclip)">
@@ -370,7 +370,8 @@
 <rect x="560" y="272" width="8" height="8" rx="2.4" fill="#006d32" opacity="1"><title>2026-11-06: 39 contributions</title></rect>
 <rect x="560" y="282" width="8" height="8" rx="2.4" fill="#39d353" opacity="1"><title>2026-11-07: 113 contributions</title></rect>
 <rect x="570" y="222" width="8" height="8" rx="2.4" fill="#26a641" opacity="1"><title>2026-11-08: 62 contributions</title></rect>
-<rect x="570" y="232" width="8" height="8" rx="2.4" fill="#26a641" opacity="1"><title>2026-11-09: 64 contributions</title></rect>
+<rect x="570" y="232" width="8" height="8" rx="2.4" fill="#26a641" opacity="1"><title>2026-11-09: 84 contributions</title></rect>
+<rect x="570" y="242" width="8" height="8" rx="2.4" fill="#006d32" opacity="1"><title>2026-11-10: 39 contributions</title></rect>
 </g>
 <ellipse cx="350.82" cy="204.98" rx="108.83" ry="61.95" fill="url(#caustic)"><animateTransform attributeName="transform" type="translate" values="0 0;29.37 9.39;0 0" dur="17.26s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="388.58" cy="205.28" rx="91.32" ry="58.13" fill="url(#caustic)"><animateTransform attributeName="transform" type="translate" values="0 0;-9.27 11.22;0 0" dur="18.82s" repeatCount="indefinite"/></ellipse>
@@ -421,7 +422,7 @@
 <ellipse cx="0" cy="-5.2" rx="3.12" ry="6.24" fill="#ffd1e1" transform="rotate(330)"/>
 <circle r="3.12" fill="#ffd66b"/>
 </g></g>
-<g transform="translate(262 134)"><title>Nov 2026: 362 contributions</title><g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="6.25s" repeatCount="indefinite"/><circle cx="3" cy="4" r="19.34" fill="#021317" opacity=".55" filter="url(#padshadow)"/><path d="M0 0 L-6.69 18.15 A19.34 19.34 0 1 0 -15.29 11.84 Z" fill="url(#pad)" opacity="1"/><path d="M0 0 L9.15 -12.48" stroke="#8fd19a" stroke-opacity=".35" stroke-width=".8"/>
+<g transform="translate(262 134)"><title>Nov 2026: 421 contributions</title><g><animateTransform attributeName="transform" type="rotate" values="-4;4;-4" dur="6.25s" repeatCount="indefinite"/><circle cx="3" cy="4" r="20.15" fill="#021317" opacity=".55" filter="url(#padshadow)"/><path d="M0 0 L-6.97 18.91 A20.15 20.15 0 1 0 -15.93 12.34 Z" fill="url(#pad)" opacity="1"/><path d="M0 0 L9.53 -13" stroke="#8fd19a" stroke-opacity=".35" stroke-width=".8"/>
 </g></g>
 <ellipse cx="316.62" cy="100.76" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.58s" begin="-1.68s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.58s" begin="-1.68s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.58s" begin="-1.68s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="316.62" cy="100.76" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.58s" begin="-2.38s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.58s" begin="-2.38s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.58s" begin="-2.38s" repeatCount="indefinite"/></ellipse>
@@ -465,23 +466,23 @@
 <rect x="664" y="176" width="210" height="3" rx="1.5" fill="#1b252a"/>
 <rect x="664" y="176" width="1.28" height="3" rx="1.5" fill="#e99a62"/>
 <text x="630" y="200" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" letter-spacing="1.5">WEEKLY RHYTHM</text>
-<rect x="630" y="221.7" width="26" height="14.3" rx="3" fill="#1f6f43"><title>Sun: 323 contributions</title></rect>
+<rect x="630" y="222.2" width="26" height="13.8" rx="3" fill="#1f6f43"><title>Sun: 323 contributions</title></rect>
 <text x="643.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">S</text>
-<rect x="663" y="208.0" width="26" height="28.0" rx="3" fill="#39d353"><title>Mon: 634 contributions</title></rect>
+<rect x="663" y="208.0" width="26" height="28.0" rx="3" fill="#39d353"><title>Mon: 654 contributions</title></rect>
 <text x="676.0" y="249" fill="#e6edf3" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">M</text>
-<rect x="696" y="221.1" width="26" height="14.9" rx="3" fill="#1f6f43"><title>Tue: 338 contributions</title></rect>
+<rect x="696" y="219.9" width="26" height="16.1" rx="3" fill="#1f6f43"><title>Tue: 377 contributions</title></rect>
 <text x="709.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">T</text>
-<rect x="729" y="226.4" width="26" height="9.6" rx="3" fill="#1f6f43"><title>Wed: 218 contributions</title></rect>
+<rect x="729" y="226.7" width="26" height="9.3" rx="3" fill="#1f6f43"><title>Wed: 218 contributions</title></rect>
 <text x="742.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">W</text>
-<rect x="762" y="222.5" width="26" height="13.5" rx="3" fill="#1f6f43"><title>Thu: 306 contributions</title></rect>
+<rect x="762" y="222.9" width="26" height="13.1" rx="3" fill="#1f6f43"><title>Thu: 306 contributions</title></rect>
 <text x="775.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">T</text>
-<rect x="795" y="209.2" width="26" height="26.8" rx="3" fill="#1f6f43"><title>Fri: 607 contributions</title></rect>
+<rect x="795" y="210.0" width="26" height="26.0" rx="3" fill="#1f6f43"><title>Fri: 607 contributions</title></rect>
 <text x="808.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">F</text>
-<rect x="828" y="218.8" width="26" height="17.2" rx="3" fill="#1f6f43"><title>Sat: 390 contributions</title></rect>
+<rect x="828" y="219.3" width="26" height="16.7" rx="3" fill="#1f6f43"><title>Sat: 390 contributions</title></rect>
 <text x="841.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">S</text>
-<text x="630" y="274" fill="#f0dfbd" font-size="17" font-weight="700">2,816</text>
+<text x="630" y="274" fill="#f0dfbd" font-size="17" font-weight="700">2,875</text>
 <text x="630" y="289" fill="#7d8b91" font-size="10">this year</text>
-<text x="711.33" y="274" fill="#f0dfbd" font-size="17" font-weight="700">349</text>
+<text x="711.33" y="274" fill="#f0dfbd" font-size="17" font-weight="700">372</text>
 <text x="711.33" y="289" fill="#7d8b91" font-size="10">last 7 days</text>
 <text x="792.67" y="274" fill="#f0dfbd" font-size="17" font-weight="700">Oct</text>
 <text x="792.67" y="289" fill="#7d8b91" font-size="10">best month</text>
