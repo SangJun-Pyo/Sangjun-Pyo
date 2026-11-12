@@ -373,6 +373,7 @@
 <rect x="570" y="232" width="8" height="8" rx="2.4" fill="#26a641" opacity="1"><title>2026-11-09: 84 contributions</title></rect>
 <rect x="570" y="242" width="8" height="8" rx="2.4" fill="#006d32" opacity="1"><title>2026-11-10: 42 contributions</title></rect>
 <rect x="570" y="252" width="8" height="8" rx="2.4" fill="#ffffff" opacity=".05"><title>2026-11-11: 0 contributions</title></rect>
+<rect x="570" y="262" width="8" height="8" rx="2.4" fill="#ffffff" opacity=".05"><title>2026-11-12: 0 contributions</title></rect>
 </g>
 <ellipse cx="350.82" cy="204.98" rx="108.83" ry="61.95" fill="url(#caustic)"><animateTransform attributeName="transform" type="translate" values="0 0;29.37 9.39;0 0" dur="17.26s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="388.58" cy="205.28" rx="91.32" ry="58.13" fill="url(#caustic)"><animateTransform attributeName="transform" type="translate" values="0 0;-9.27 11.22;0 0" dur="18.82s" repeatCount="indefinite"/></ellipse>
@@ -435,8 +436,6 @@
 <ellipse cx="107.45" cy="100.99" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.31s" begin="-3.68s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.31s" begin="-3.68s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.31s" begin="-3.68s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="120.44" cy="111.49" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.97s" begin="-0.13s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.97s" begin="-0.13s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.97s" begin="-0.13s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="120.44" cy="111.49" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.97s" begin="-0.83s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.97s" begin="-0.83s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.97s" begin="-0.83s" repeatCount="indefinite"/></ellipse>
-<ellipse cx="120.18" cy="188.94" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.73s" begin="-1.04s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.73s" begin="-1.04s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.73s" begin="-1.04s" repeatCount="indefinite"/></ellipse>
-<ellipse cx="120.18" cy="188.94" rx="2" ry="1.3" fill="none" stroke="#d8fbff" stroke-width="1.2" opacity="0"><animate attributeName="rx" values="2;34" dur="3.73s" begin="-1.74s" repeatCount="indefinite"/><animate attributeName="ry" values="1.3;20" dur="3.73s" begin="-1.74s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0" dur="3.73s" begin="-1.74s" repeatCount="indefinite"/></ellipse>
 </g>
 <rect x="14" y="14" width="600" height="292" rx="26" fill="none" stroke="#2b3a3f" stroke-width="3"/>
 <rect x="18" y="18" width="592" height="284" rx="22" fill="none" stroke="#9fe7f0" stroke-opacity=".08"/>
@@ -481,7 +480,7 @@
 <text x="841.0" y="249" fill="#5b6a70" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">S</text>
 <text x="630" y="274" fill="#f0dfbd" font-size="17" font-weight="700">2,878</text>
 <text x="630" y="289" fill="#7d8b91" font-size="10">this year</text>
-<text x="711.33" y="274" fill="#f0dfbd" font-size="17" font-weight="700">370</text>
+<text x="711.33" y="274" fill="#f0dfbd" font-size="17" font-weight="700">340</text>
 <text x="711.33" y="289" fill="#7d8b91" font-size="10">last 7 days</text>
 <text x="792.67" y="274" fill="#f0dfbd" font-size="17" font-weight="700">Oct</text>
 <text x="792.67" y="289" fill="#7d8b91" font-size="10">best month</text>
